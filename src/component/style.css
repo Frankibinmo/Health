@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "Mulish", sans-serif;
+}
+
+.navbar {
+    padding: 0 !important;
+}
+
+.hero-btn {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+    padding: 10px 25px;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    background: #458FF6;
+}
+
+.hero-space {
+    margin: 2% auto;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+@media screen and (max-width: 992px) {
+    br {
+        display: none;
+    }
+
+    .hero-space {
+        margin-bottom: 40px;
+    }
+
+    .hero-space h1 {
+        font-size: 24px;
+    }
+
+    .hero-btn {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+.btn-first {
+    margin-left: 700px;
+    background-color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    border-color: #458FF6;
+    
+    
+}
+
+@media screen and (min-width: 680px) and (max-width: 1000px) {
+    .hero-space h1 {
+        font-size: 44px;
+    }
+
+    .hero-space p {
+        font-size: 24px;
+    }
+}
+
+
+
+
+
+
+.row {
+    margin: 0 !important; 
+}
+
+.service-header p {
+    font-size: 15px;
+    margin-top: 14px;
+}
+
+@media screen and (max-width: 992px) {
+    br {
+        display: none;
+    }
+    .hero-space p {
+        font-size: 24px;
+    }
+
+    .myCard {
+        height: 382px !important;
+    }
+}
