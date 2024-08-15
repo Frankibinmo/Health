@@ -8,7 +8,7 @@
     padding: 0 !important;
 }
 
-.hero-btn {
+.hero-btn, .btn-first {
     outline: none;
     box-shadow: none;
     border: 0;
@@ -20,7 +20,7 @@
 }
 
 .hero-space {
-    margin: 2% auto;
+    margin: 10% auto;
 }
 
 .row {
@@ -47,16 +47,11 @@
 }
 
 .btn-first {
-    margin-left: 700px;
-    background-color: white;
-    width: 130px;
-    height: 40px;
-    border-radius: 30px;
-    margin-bottom: 15px;
-    border-color: #458FF6;
-    
-    
+    border: 1px solid #458FF6;
+    background: #fff;
+    color: #458FF6;
 }
+
 
 @media screen and (min-width: 680px) and (max-width: 1000px) {
     .hero-space h1 {
@@ -81,6 +76,40 @@
     font-size: 15px;
     margin-top: 14px;
 }
+
+.testimonial {
+    background: #67C3F3;
+    height: 300px;
+}
+
+/* background */
+
+.edword-u {
+    margin-top: 100px;
+    margin-left: -20px;
+
+}
+
+.cap-face {
+    margin-top: 60px;
+    margin-left: 100px;
+   
+}
+
+.explore-u {
+   text-align: center;
+}
+
+.explore-u {
+margin-top: 30px;
+}
+
+.testimonial {
+    margin-left: 120px;
+    margin-right: 120px;
+    border-radius: 5px;
+}
+
 
 @media screen and (max-width: 992px) {
     br {
