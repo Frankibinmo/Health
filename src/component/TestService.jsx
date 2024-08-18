@@ -44,7 +44,7 @@ const TestService = () => {
 
     const displayImages = serviceImages.map((item) =>
     <div className="col-sm-12 col-md-12 col-lg-4" key={item.id}>
-        <div className="myCard p-3 mb-3" style={{boxShadow: 'rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px', height: '280px', borderRadius: '15px'}}>
+        <div className="myCard p-3 mb-3" style={{boxShadow: 'rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px', height: '', borderRadius: '15px'}}>
            <div className="myCard-img">
             {
                <img src={item.image} alt="" className='w-25'/>
@@ -52,7 +52,7 @@ const TestService = () => {
            </div>
            <div className="myCard-body">
                <h5 className='my-3'><b>{item.heading}</b></h5>
-               <p style={{color: '#7D7987', fontSize: '14px'}}>{item.paragraph}</p>
+               <p style={{color: '#7D7987', fontSize: '12px'}}>{item.paragraph}</p>
            </div>
        </div>
     </div> 

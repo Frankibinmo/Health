@@ -10,6 +10,9 @@ const Background = () => {
                 <div className="col-sm-12 col-md-12 col-lg-1"></div>
                    <div className="col-sm-12 col-md-12 col-lg-10">
                             <h1 className='explore-u'>What our customer are saying</h1>
+                            <div>
+                            <Divide />
+                            </div>
                       <div className="row">
                           <div className='col-sm-12 col-md-12 col-lg-3'>
                               <img src={ face} alt=""className='cap-face' />

@@ -1,8 +1,9 @@
 
 import React from 'react'
 import Divide from './Divide'
-import Testarticle from './Testarticle'
+import TestArticle from './TestArticle'
 import './style.css'
+
 
 const Article = () => {
   return (
@@ -17,7 +18,7 @@ const Article = () => {
                   </div>
               </div>
               <div className="row">
-                  <Testarticle />
+                  <TestArticle />
               </div>
           </div>
           <div className="col-sm-12 col-md-12 col-lg-1"></div>

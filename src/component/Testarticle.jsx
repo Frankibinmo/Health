@@ -5,8 +5,8 @@ import { nidle1, nidle2, nidle3 } from "../assets";
 
 
 
-const Testarticle = () => {
-    const Articleimages = [
+const TestArticle = () => {
+    const ArticleImages = [
         {
             id: 0,
             image: nidle1,
@@ -28,9 +28,9 @@ const Testarticle = () => {
     ]
 
 
-    const displayImages = serviceImages.map((item) =>
+    const displayImages = ArticleImages.map((item) =>
         <div className="col-sm-12 col-md-12 col-lg-4" key={item.id}>
-            <div className="my-img" style={{}}>
+            <div className="my-imgcode" style={{}}>
                <div className="my-imgcode">
                 {
                    <img src={item.image} alt="" className='w-25'/>
@@ -38,7 +38,7 @@ const Testarticle = () => {
                </div>
                <div className="myCard-body">
                    <h5 className=''><b>{item.heading}</b></h5>
-                   <p style={{}}>np{item.paragraph}</p>
+                   <p style={{}}>{item.paragraph}</p>
                </div>
            </div>
         </div> 
@@ -52,5 +52,5 @@ const Testarticle = () => {
 
 }
 
-export default Testarticle;
+export default TestArticle;
     

@@ -10,9 +10,9 @@ import Search from './search.png';
 import healthcare from './healthcare.png';
 import mob from './mob.png';
 import face  from './face.png';
-import nidle1 from './nidle1.png';
-import nidle2 from './nidle2.png';
-import nidle3 from './nidle3.png';
+import nidle1 from './nidle.png';
+import nidle2 from './nidle.png';
+import nidle3 from './nidle.png';
 import tra from './tra.png';
 
-export {  Logo, Her, Faid, Line, logfile, logfile2, logfile3, Mug,Search, healthcare, mob, face, nidle1, nidle2, nidle3, tra };
+export {  Logo, Her, Faid, Line, logfile, logfile2, logfile3, Mug,Search, healthcare, mob, face, nidle1, nidle2, nidle3, tra }

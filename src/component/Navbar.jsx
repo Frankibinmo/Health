@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { Logo } from '../assets';
 import './style.css'
 
@@ -18,13 +19,13 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item active">
-                  <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                  <Link className="nav-link" to="/service">Home <span className="sr-only">(current)</span></Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Find a doctor <span className="sr-only">(current)</span></a>
+                <Link className="nav-link" to="/service">Find a doctor <span className="sr-only">(current)</span></Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">App <span className="sr-only">(current)</span></a>
+                  <Link className="nav-link" to="/health">App <span className="sr-only">(current)</span></Link>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">Testimonials <span className="sr-only">(current)</span></a>
